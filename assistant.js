@@ -19,10 +19,10 @@ function wishMe(){
     let hrs = day.getHours();
     
     if(hrs >= 3 && hrs < 12){
-        speak("Good afternoon, baby. How are you? Did you have your breakfast?");
+        speak("Good afternoon, How are you? Did you have your breakfast?");
     }
     else if(hrs >= 12 && hrs < 18){
-        speak("Good afternoon, baby. Did you have your lunch?");
+        speak("Good afternoon,Did you have your lunch?");
     }
     else{
         speak("Hello Sir, How was your day. Don't forget to have your dinner. Good night!");
@@ -66,7 +66,7 @@ function takeCommand(message){
         speak("hello sir, how can i help you!");
     }
     else if(message.includes("who are you") || message.includes("hu r u")){
-        speak("I am a Virtual Assistant, created by Anand AKA knightlegion.")
+        speak("I am a Virtual Assistant, created by Harsh shivhare.")
     }
     else if(message.includes("open youtube")){
         speak("Opening Youtube...");
